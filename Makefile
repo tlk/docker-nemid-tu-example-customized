@@ -22,7 +22,7 @@ build-tuexample-interactive:
 	docker run -it -v $(shell pwd)/src/tuexample-source:/usr/src/tuexample-source -w /usr/src/tuexample-source docker-nemid-tu-example-customized-build /bin/bash
 
 init: src ooapi-source.zip tuexample-source.zip
-	docker build -f Dockerfile.build -t docker-nemid-tu-example-customized-build .
+	docker build -t docker-nemid-tu-example-customized-build .
 
 clean:
 	rm -rf ooapi-source.zip tuexample-source.zip src dist
