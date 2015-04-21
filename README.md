@@ -6,7 +6,7 @@ up and running using Docker and Tomcat on Mac OS X.
 
 The war-file is built and run on separate Docker containers.
 
-Thanks to Docker it is not neccessary to have neither Java JRE, JDK, Maven or
+Thanks to Docker it is not neccessary to have neither Java JRE, JDK, Maven nor
 Tomcat installed directly on the host OS. Neat!
 
 

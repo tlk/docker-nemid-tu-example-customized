@@ -1,0 +1,11 @@
+--- src/tuexample-source/src/main/webapp/index.jsp	2015-04-21 06:52:00.000000000 +0200
++++ src/tuexample-source/src/main/webapp/index.jsp	2015-04-21 06:38:21.000000000 +0200
+@@ -36,7 +36,7 @@
+ 
+         <div id="contentWrapper">
+             <div id="content">
+-                <h1>Velkommen til demo af interaktionsdesignet</h1>
++                <h1>Velkommen til demo af interaktionsdesignet -- CUSTOMIZED!!</h1>
+                 <p>Her på siden har du mulighed for at afprøve hvilken af de tre forskellige tjenesteudbydervarianter af interaktionsdesignet der passer bedst til jeres site, og typen af brugere der logger ind hos jer.</p>
+                 <p>De tre forløb som du kan prøve, har identiske brugergrænseflader, men hjælpetekster, log-in og signeringsappletter er specifikke for de enkelte scenarier.
+                 I hvert scenarie har du mulighed for at gennemføre både log-in og signering, og derigennem få en oplevelse der vil svare til den dine brugere vil få når de logger ind eller signerer et dokument på dit site.</p>

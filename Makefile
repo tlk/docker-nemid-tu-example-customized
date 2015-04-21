@@ -43,10 +43,5 @@ tuexample-source.zip: |src
 	unzip tuexample-source.zip -d src/
 	rm -rf src/tuexample-source/src/test
 	patch -nup0 -i tuexample-source-pom-log4j.patch
-
-unzip:
-	unzip ooapi-source.zip -d src/
-	rm -rf src/ooapi-source/src/tests
-	unzip tuexample-source.zip -d src/
-	rm -rf src/tuexample-source/src/tests
+	patch -nup0 -i tuexample-customize.patch
 
