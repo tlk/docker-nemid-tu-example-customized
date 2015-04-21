@@ -1,0 +1,14 @@
+--- src/tuexample-source/pom.xml	2015-04-21 04:30:47.000000000 +0200
++++ src/tuexample-source/pom.xml	2015-04-21 04:41:00.000000000 +0200
+@@ -316,9 +316,9 @@
+ 		<commons-logging.version>1.1</commons-logging.version>
+ 		<jstl.version>1.1.2</jstl.version>
+ 		<junit.version>4.7</junit.version>
+-        <log4j.version>1.2.15</log4j.version>
++        <log4j.version>1.2.16</log4j.version>
+ 		<mime-util.version>1.2</mime-util.version>
+-        <ooapi.version>1.172.0</ooapi.version>				
++        <ooapi.version>1.172.0-SNAPSHOT</ooapi.version>				
+ 		<regexp.version>1.3</regexp.version>
+ 		<servlet-api.version>2.4</servlet-api.version>
+ 		<taglibs.version>1.1.2</taglibs.version>
