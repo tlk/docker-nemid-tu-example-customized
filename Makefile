@@ -1,6 +1,5 @@
 
 run: dist/ROOT.war
-	echo open http://$(shell boot2docker ip):8080
 	docker run -p 8080:8080 --rm --name docker-nemid-tu-example-customized-run -v $(shell pwd)/dist:/usr/local/tomcat/webapps tomcat:8.0
 
 
