@@ -2,6 +2,8 @@
 run: dist/ROOT.war
 	docker run -p 8080:8080 --rm --name docker-nemid-tu-example-customized-run -v $(shell pwd)/dist:/usr/local/tomcat/webapps tomcat:8.0
 
+open-browser:
+	open http://$(shell boot2docker ip):8080
 
 build: dist/ooapi.jar dist/ROOT.war
 
