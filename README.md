@@ -40,7 +40,7 @@ make build
 ```
 make run
 ```
-Note: To stop tomcat and the docker container press ctrl+c.
+Note: To stop tomcat and the docker container press <kbd>Ctrl</kbd>+<kbd>c</kbd>.
 
 ## Open the url in a browser
 Since the docker container was started in interactive mode, go to another terminal window
