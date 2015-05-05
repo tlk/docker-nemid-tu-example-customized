@@ -1,7 +1,7 @@
 
 run: dist/ROOT.war
 	./print-url.sh
-	docker run -p 8080:8080 --rm --name docker-nemid-tu-example-customized-run -v $(shell pwd)/dist:/usr/local/tomcat/webapps tomcat:8.0
+	docker run -e "JAVA_OPTS='-Djava.security.egd=file:/dev/./urandom'" -p 8080:8080 --rm --name docker-nemid-tu-example-customized-run -v $(shell pwd)/dist:/usr/local/tomcat/webapps tomcat:8.0
 
 
 build: dist/ooapi.jar dist/ROOT.war
