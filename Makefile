@@ -38,6 +38,7 @@ ooapi-source.zip: |src
 	curl -O http://www.nets.eu/dk-da/Service/kundeservice/nemid-tu/Documents/TU-pakken/Kode/Java/ooapi-source.zip
 	unzip ooapi-source.zip -d src/
 	rm -rf src/ooapi-source/src/test
+	patch -nup0 -i ooapi-source-pp-root-cert.patch
 
 tuexample-source.zip: |src
 	curl -O http://www.nets.eu/dk-da/Service/kundeservice/nemid-tu/Documents/TU-pakken/Kode/Java/tuexample-source.zip
